@@ -1,6 +1,6 @@
 {
     "name": "@cdunne/ig-roi",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "provides a return on investment calculation for Instagram influencers",
     "license": "MIT",
     "repository": "chrisdunne/ig-roi",
