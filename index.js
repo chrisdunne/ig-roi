@@ -1,4 +1,4 @@
-module.exports = function GetROI(props) {
+module.exports = function getROI(props) {
     const influencerEngagment = props.engagement;
     const influencerFollowers = props.followers;
     const conversionRate = props.conversion;
