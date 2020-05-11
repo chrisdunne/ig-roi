@@ -1,6 +1,16 @@
 {
     "name": "@cdunne/ig-roi",
     "version": "1.0.0",
+    "description": "provides a return on investment calculation for Instagram influencers",
+    "license": "MIT",
+    "repository": "cdunne/ig-roi",
+    "main": "index.js",
+    "keywords": [
+        "ROI",
+        "Instagram",
+        "npm",
+        "package"
+    ],
     "devDependencies": {
         "mocha": "^7.1.2"
     },
