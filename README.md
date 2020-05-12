@@ -36,5 +36,5 @@ The calculated response will be a monetary value in the form of a floating point
         "cost" : 50,
         "payment" : 10
     });
-    //=> 3.5
+    //=> 3.50
 ```
