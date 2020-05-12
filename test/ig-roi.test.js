@@ -14,6 +14,6 @@ describe('check response is accurate', () => {
             "payment" : 10
         });
 
-        assert.equal(result, 3.5);
+        assert.equal(result, (3.5).toFixed(2));
     });
 });

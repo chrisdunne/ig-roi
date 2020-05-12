@@ -7,13 +7,13 @@ class ROI {
         const averageProductCost = props.cost;
         const proposedPayment = props.payment;
     
-        let activeFollowers = ((influencerFollowers * influencerEngagment) / 100).toFixed(2);
-        let potentialSales = ((activeFollowers * conversionRate) / 100).toFixed(2);
-        let potentialRevenue = (potentialSales * averageOrderValue).toFixed(2);
-        let predictedProductCost = (averageProductCost * potentialSales).toFixed(2);
+        let activeFollowers = ((influencerFollowers * influencerEngagment) / 100);
+        let potentialSales = ((activeFollowers * conversionRate) / 100);
+        let potentialRevenue = (potentialSales * averageOrderValue);
+        let predictedProductCost = (averageProductCost * potentialSales);
         let predictedSales = potentialRevenue - predictedProductCost;
     
-        return predictedSales - proposedPayment;
+        return (predictedSales - proposedPayment).toFixed(2);
     }
 }
 
